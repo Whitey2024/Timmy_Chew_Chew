@@ -1,0 +1,7 @@
+how exactly do I change the output file path to "C:\Users\timsc\Downloads\MEmu Download\IPTV"?
+
+To change the output path, edit this line near the top of the script:PythonOUTPUT_FILE = Path.home() / "filtered_tv.m3u"   # change if you want a different locationReplace it with:PythonOUTPUT_FILE = Path(r"C:\Users\timsc\Downloads\MEmu Download\IPTV\filtered_tv.m3u")Important notes
+
+The r before the string is a raw string so the backslashes work correctly.
+I added \filtered_tv.m3u at the end because IPTV looks like a folder. If you want a different filename (for example tv.m3u or clean.m3u), just change the last part.
+Make sure the folder C:\Users\timsc\Downloads\MEmu Download\IPTV already exists. The script will not create the folder for you.
