@@ -1,4 +1,4 @@
-Here's a ready-to-use Python script that downloads the playlist daily, filters out the categories you listed, and writes a cleaned M3U.
+Here's a ready-to-use Python script that downloads the BudyChewChew M3U playlist daily, filters out the categories you listed, and writes a cleaned M3U.
 What it removes
 
 Local TV – anything with _locals in tvg-id (ABC, CBS, NBC, FOX, CW, Telemundo, Univision, etc.)
