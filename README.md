@@ -12,7 +12,7 @@ Script (filter_m3u.py)
 
 Create a text document and paste the following, then rename to 'filter_m3u.py' make sure to remove the .txt file extension.
 
-'''python
+```
 #!/usr/bin/env python3
 """
 Daily M3U filter for BuddyChewChew/My-Streams tv.m3u
@@ -141,4 +141,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
-'''
+```
